@@ -115,7 +115,7 @@ namespace ApiCatalogoDeJogos.Services
             _jogoRepository?.Dispose();
         }
 
-        Task<List<JogoViewModel>> IJogoService.Obter(int pagina, int quantidade)
+       /* Task<List<JogoViewModel>> IJogoService.Obter(int pagina, int quantidade)
         {
             throw new NotImplementedException();
         }
@@ -124,7 +124,7 @@ namespace ApiCatalogoDeJogos.Services
         {
             throw new NotImplementedException();
         }
-
+       */
        
     }
 }
